@@ -248,7 +248,7 @@ export default function Index() {
       {/* ABOUT */}
       <section id="about" className="py-24 px-6 md:px-12">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-3 gap-12 items-center">
             <AnimatedSection className="space-y-3">
               {[
                 ["CheckCircle", "Медицинское образование", "Диплом по специальности «Лечебное дело»"],
@@ -264,6 +264,24 @@ export default function Index() {
                   </div>
                 </div>
               ))}
+            </AnimatedSection>
+
+            {/* Photo column */}
+            <AnimatedSection className="flex justify-center">
+              <div className="relative w-56 md:w-64">
+                <div className="absolute -inset-3 pointer-events-none"
+                  style={{ border: "1px solid hsl(42,65%,65%,0.18)" }} />
+                <img
+                  src={MASTER_PHOTO}
+                  alt="Анна Белова — подолог"
+                  className="w-full object-cover block"
+                  style={{ aspectRatio: "3/4" }}
+                />
+                <div className="absolute top-0 left-0 w-4 h-4" style={{ borderTop: "1px solid hsl(42,65%,65%,0.8)", borderLeft: "1px solid hsl(42,65%,65%,0.8)" }} />
+                <div className="absolute top-0 right-0 w-4 h-4" style={{ borderTop: "1px solid hsl(42,65%,65%,0.8)", borderRight: "1px solid hsl(42,65%,65%,0.8)" }} />
+                <div className="absolute bottom-0 left-0 w-4 h-4" style={{ borderBottom: "1px solid hsl(42,65%,65%,0.8)", borderLeft: "1px solid hsl(42,65%,65%,0.8)" }} />
+                <div className="absolute bottom-0 right-0 w-4 h-4" style={{ borderBottom: "1px solid hsl(42,65%,65%,0.8)", borderRight: "1px solid hsl(42,65%,65%,0.8)" }} />
+              </div>
             </AnimatedSection>
 
             <AnimatedSection>
