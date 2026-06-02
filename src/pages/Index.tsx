@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 
-const MASTER_PHOTO = "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/files/57d66e5a-0c0e-4d73-b1c5-5beafcd4627f.jpg";
+const MASTER_PHOTO = "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/da774837-7e13-4361-9812-d2d4962368bd.jpg";
 
 const services = [
   {
