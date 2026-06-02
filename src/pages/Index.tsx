@@ -141,8 +141,8 @@ export default function Index() {
         style={{ background: "linear-gradient(to bottom, rgba(18,13,9,0.97), rgba(18,13,9,0.0))" }}>
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <a href="#home" className="font-display text-xl tracking-widest">
-            <span className="text-gold-gradient">А.Белова</span>
-            <span className="block text-[10px] font-body tracking-[0.3em] text-muted-foreground uppercase mt-0.5">Подолог · Москва</span>
+            <span className="text-gold-gradient">Э.Гусева</span>
+            <span className="block text-[10px] font-body tracking-[0.3em] text-muted-foreground uppercase mt-0.5">Подолог · Чистополь</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
@@ -220,7 +220,7 @@ export default function Index() {
                   style={{ border: "1px solid hsl(42,65%,65%,0.15)" }} />
                 <div className="absolute -inset-8 pointer-events-none"
                   style={{ border: "1px solid hsl(42,65%,65%,0.07)" }} />
-                <img src={MASTER_PHOTO} alt="Анна Белова — подолог"
+                <img src={MASTER_PHOTO} alt="Эльвира Гусева — подолог"
                   className="w-full object-cover block"
                   style={{ aspectRatio: "3/4" }} />
                 <div className="absolute top-0 left-0 w-5 h-5" style={{ borderTop: "1px solid hsl(42,65%,65%,0.8)", borderLeft: "1px solid hsl(42,65%,65%,0.8)" }} />
@@ -287,7 +287,7 @@ export default function Index() {
             <AnimatedSection>
               <div className="ornament mb-4">✦ &nbsp; о мастере</div>
               <h2 className="font-display text-4xl md:text-5xl mb-6 leading-tight">
-                Анна Белова —<br /><span className="text-gold-gradient italic">медицинский</span><br />подолог
+                Эльвира Гусева —<br /><span className="text-gold-gradient italic">медицинский</span><br />подолог
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
                 Начала путь в подологии 8 лет назад после прохождения специализации в Германии. Убеждена, что здоровье стоп напрямую влияет на качество всей жизни.
@@ -533,17 +533,17 @@ export default function Index() {
               {
                 icon: "MapPin",
                 title: "Адрес",
-                lines: ["г. Москва", "ул. Пречистенка, 17", "м. Кропоткинская, 5 мин"],
+                lines: ["г. Чистополь", "ул. Л.Толстого, д. 143", ""],
               },
               {
                 icon: "Phone",
                 title: "Телефон",
-                lines: ["+7 (999) 123-45-67", "WhatsApp / Telegram", "Пн–Сб: 9:00–20:00"],
+                lines: ["+7 (937) 288-93-27", "WhatsApp / Telegram", "Пн–Сб: 9:00–20:00"],
               },
               {
                 icon: "MessageCircle",
                 title: "Соцсети",
-                lines: ["@anna.podolog", "Instagram", "ВКонтакте"],
+                lines: ["@podolod.Chistopol", "Instagram", "ВКонтакте"],
               },
             ].map(({ icon, title, lines }) => (
               <AnimatedSection key={title}>
@@ -566,9 +566,9 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="py-10 px-6 md:px-12" style={{ borderTop: "1px solid hsl(30,10%,15%)" }}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
-          <div className="font-display text-xl text-gold-gradient">А. Белова · Подолог</div>
+          <div className="font-display text-xl text-gold-gradient">Э. Гусева · Подолог</div>
           <div className="text-xs text-muted-foreground tracking-wider text-center">
-            © 2024 Анна Белова · Медицинский подолог · Москва
+            © 2024 Эльвира Гусева · Медицинский подолог · Чистополь
           </div>
           <a href="#booking" className="btn-gold text-xs py-2.5 px-6">Записаться</a>
         </div>
