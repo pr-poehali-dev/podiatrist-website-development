@@ -447,7 +447,7 @@ export default function Index() {
                   <div className="flex items-start justify-between mb-5">
                     <div>
                       <div className="font-body font-medium text-foreground">{r.name}</div>
-                      <div className="text-xs text-muted-foreground mt-1">{r.date} · {r.service}</div>
+                      <div className="text-xs text-muted-foreground mt-1">Март 2026 · Лечение грибка</div>
                     </div>
                     <div className="flex gap-0.5 mt-1">
                       {Array.from({ length: r.stars }).map((_, j) => (
