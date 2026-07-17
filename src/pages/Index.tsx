@@ -292,7 +292,7 @@ export default function Index() {
             <AnimatedSection>
               <div className="ornament mb-4">✦ &nbsp; о мастере</div>
               <h2 className="font-display text-4xl md:text-5xl mb-6 leading-tight">
-                Эльвира Гусева —<br /><span className="text-gold-gradient italic">медицинский</span><br />подолог
+                Эльвира Гусева —<br /><span className="text-gold-gradient italic"></span><br />подолог
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-5">
                 Начала путь в подологии 8 лет назад после прохождения специализации в Германии. Убеждена, что здоровье стоп напрямую влияет на качество всей жизни.
