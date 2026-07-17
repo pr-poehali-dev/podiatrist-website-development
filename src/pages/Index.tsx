@@ -256,7 +256,7 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-12 items-center">
             <AnimatedSection className="space-y-3">
               {[
-                ["Award", "Сертификат подолога", "Немецкая школа подологии — DFZ, Берлин"],
+                ["Award", "Сертификат подолога", "ООО Школа-студия «Виктория»"],
                 ["TrendingUp", "Повышение квалификации", "Ежегодные курсы по онихологии и биомеханике стопы"],
                 ["Zap", "Работа с аппаратами", "Сертифицированный специалист Doctor Alex & SP-130"],
               ].map(([icon, title, sub]) => (
