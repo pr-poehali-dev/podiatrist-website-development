@@ -49,7 +49,7 @@ const portfolioItems = [
   { label: "Аппаратный педикюр", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/c8718ba6-cbc5-4c5b-a767-7de74b5c610b.jpg", afterImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/fec211b0-ca6e-4430-979d-0f7f779ae6e7.jpg" },
   { label: "Удаление мозолей", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/da4b009b-2579-4de0-b84e-3b86cae87943.jpg", afterImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/b1a78b31-9f0e-4f50-914d-490cebfa876c.jpg" },
   { label: "Лечение грибка", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/d75ffba2-d24e-40ce-847c-5a4fdf576afe.jpg", afterImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/927038cc-6799-46bd-81f4-87f5c86fa084.jpg" },
-  { label: "Вросший ноготь" },
+  { label: "Вросший ноготь", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/88a486a6-5df7-4f55-a5a3-59ca82193fbe.jpg", afterImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/784daf3c-64e8-4381-b848-2a0aa8690d63.jpg" },
   { label: "Уход за ногтями" },
   { label: "Комплексный уход" },
 ];
