@@ -256,7 +256,6 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-12 items-center">
             <AnimatedSection className="space-y-3">
               {[
-                ["CheckCircle", "Медицинское образование", "Диплом по специальности «Лечебное дело»"],
                 ["Award", "Сертификат подолога", "Немецкая школа подологии — DFZ, Берлин"],
                 ["TrendingUp", "Повышение квалификации", "Ежегодные курсы по онихологии и биомеханике стопы"],
                 ["Zap", "Работа с аппаратами", "Сертифицированный специалист Podomaster & Pfaff"],
