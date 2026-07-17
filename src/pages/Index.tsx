@@ -295,9 +295,7 @@ export default function Index() {
                 Эльвира Гусева —<br /><span className="text-gold-gradient italic"></span><br />подолог
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-5">Начала свой путь в подологии с 2025 года. Пройдя обучение в г. Казани и получив диплом  о профессиональной переподготовке.   Убеждена, что здоровье стоп напрямую влияет на качество всей жизни.</p>
-              <p className="text-muted-foreground leading-relaxed mb-8">
-                Принимаю в стерильном кабинете в центре Москвы. Каждый инструмент — одноразовый или автоклавируется при вас. Никаких очередей — только запись.
-              </p>
+              <p className="text-muted-foreground leading-relaxed mb-8">Принимаю в стерильном кабинете в центре Чистополя. Каждый инструмент — стерильный и вскрывается при вас. Никаких очередей — только запись.</p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-px" style={{ background: "hsl(42,65%,65%,0.5)" }} />
                 <span className="text-gold text-sm font-display italic">«Каждый клиент — это отдельная история»</span>
