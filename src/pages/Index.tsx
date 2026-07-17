@@ -455,7 +455,9 @@ export default function Index() {
                       ))}
                     </div>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed font-display text-lg italic">«Мучилась с вросшим ногтём 2 года. Эльвира решила проблему за одну процедуру и дала рекомендации. Спасибо огромное!»</p>
+                  <p className="text-muted-foreground leading-relaxed font-display text-lg italic">
+                    «{r.text}»
+                  </p>
                 </div>
               </AnimatedSection>
             ))}
