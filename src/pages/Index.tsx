@@ -195,7 +195,14 @@ export default function Index() {
                 — это искусство
               </h1>
               <p className="text-muted-foreground text-base leading-relaxed mb-10 max-w-md"
-                style={{ opacity: 0, animation: "fadeInUp 0.8s ease 0.35s forwards" }}>Специализируюсь на лечении проблем стоп — от эстетики до сложных патологий.</p>
+                style={{ opacity: 0, animation: "fadeInUp 0.8s ease 0.35s forwards" }}>Специализируюсь на лечении проблем стоп  и ногтей.
+Помогаю в решение проблем таких как:
+Грибок ногтей
+Врастающие ногти
+Мозоли,омозолелости,гиперкеротоз
+Деформированные ногти 
+Трещины 
+Установка коррекционных систем </p>
               <div className="flex flex-wrap gap-4" style={{ opacity: 0, animation: "fadeInUp 0.8s ease 0.45s forwards" }}>
                 <a href="#booking" className="btn-gold">Записаться онлайн</a>
                 <a href="#portfolio" className="btn-gold-outline">Мои работы</a>
