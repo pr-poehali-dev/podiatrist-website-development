@@ -294,9 +294,7 @@ export default function Index() {
               <h2 className="font-display text-4xl md:text-5xl mb-6 leading-tight">
                 Эльвира Гусева —<br /><span className="text-gold-gradient italic"></span><br />подолог
               </h2>
-              <p className="text-muted-foreground leading-relaxed mb-5">
-                Начала путь в подологии 8 лет назад после прохождения специализации в Германии. Убеждена, что здоровье стоп напрямую влияет на качество всей жизни.
-              </p>
+              <p className="text-muted-foreground leading-relaxed mb-5">Начала свой путь в подологии с 2025 года. Пройдя обучение в г. Казани и получив диплом  о профессиональной переподготовке.   Убеждена, что здоровье стоп напрямую влияет на качество всей жизни.</p>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 Принимаю в стерильном кабинете в центре Москвы. Каждый инструмент — одноразовый или автоклавируется при вас. Никаких очередей — только запись.
               </p>
