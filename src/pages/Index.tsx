@@ -46,7 +46,7 @@ const prices = [
 ];
 
 const portfolioItems = [
-  { label: "Аппаратный педикюр" },
+  { label: "Аппаратный педикюр", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/72034ead-810f-492d-adb8-5dbc50b14fb4.jpg" },
   { label: "Удаление мозолей" },
   { label: "Лечение грибка" },
   { label: "Вросший ноготь" },
@@ -387,12 +387,17 @@ export default function Index() {
                   onMouseEnter={() => setActivePortfolio(i)}
                   onMouseLeave={() => setActivePortfolio(null)}>
 
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <Icon name="Image" size={28} className="text-gold opacity-30 mx-auto mb-2" />
-                      <span className="text-xs text-muted-foreground tracking-wider">{item.label}</span>
+                  {item.beforeImage ? (
+                    <img src={item.beforeImage} alt={`${item.label} — до`}
+                      className="absolute inset-0 w-full h-full object-cover" />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="text-center">
+                        <Icon name="Image" size={28} className="text-gold opacity-30 mx-auto mb-2" />
+                        <span className="text-xs text-muted-foreground tracking-wider">{item.label}</span>
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   <div className="absolute inset-0 transition-opacity duration-400"
                     style={{
