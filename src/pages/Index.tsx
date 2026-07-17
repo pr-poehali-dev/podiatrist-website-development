@@ -258,7 +258,7 @@ export default function Index() {
               {[
                 ["Award", "Сертификат подолога", "Немецкая школа подологии — DFZ, Берлин"],
                 ["TrendingUp", "Повышение квалификации", "Ежегодные курсы по онихологии и биомеханике стопы"],
-                ["Zap", "Работа с аппаратами", "Сертифицированный специалист Podomaster & Pfaff"],
+                ["Zap", "Работа с аппаратами", "Сертифицированный специалист Doctor Alex & SP-130"],
               ].map(([icon, title, sub]) => (
                 <div key={title} className="flex items-start gap-4 p-4 card-gold-border rounded-sm bg-card">
                   <Icon name={icon} size={16} className="text-gold mt-0.5 flex-shrink-0" />
