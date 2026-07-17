@@ -46,7 +46,7 @@ const prices = [
 ];
 
 const portfolioItems = [
-  { label: "Аппаратный педикюр", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/72034ead-810f-492d-adb8-5dbc50b14fb4.jpg" },
+  { label: "Аппаратный педикюр", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/72034ead-810f-492d-adb8-5dbc50b14fb4.jpg", afterImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/fec211b0-ca6e-4430-979d-0f7f779ae6e7.jpg" },
   { label: "Удаление мозолей" },
   { label: "Лечение грибка" },
   { label: "Вросший ноготь" },
@@ -388,8 +388,10 @@ export default function Index() {
                   onMouseLeave={() => setActivePortfolio(null)}>
 
                   {item.beforeImage ? (
-                    <img src={item.beforeImage} alt={`${item.label} — до`}
-                      className="absolute inset-0 w-full h-full object-cover" />
+                    <img
+                      src={activePortfolio === i && item.afterImage ? item.afterImage : item.beforeImage}
+                      alt={`${item.label} — ${activePortfolio === i && item.afterImage ? "после" : "до"}`}
+                      className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300" />
                   ) : (
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">
