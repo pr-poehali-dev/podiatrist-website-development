@@ -46,7 +46,7 @@ const prices = [
 ];
 
 const portfolioItems = [
-  { label: "Аппаратный педикюр", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/72034ead-810f-492d-adb8-5dbc50b14fb4.jpg", afterImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/fec211b0-ca6e-4430-979d-0f7f779ae6e7.jpg" },
+  { label: "Аппаратный педикюр", beforeImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/c8718ba6-cbc5-4c5b-a767-7de74b5c610b.jpg", afterImage: "https://cdn.poehali.dev/projects/756bf854-deba-40d9-ab92-127a45ee7a4b/bucket/fec211b0-ca6e-4430-979d-0f7f779ae6e7.jpg" },
   { label: "Удаление мозолей" },
   { label: "Лечение грибка" },
   { label: "Вросший ноготь" },
